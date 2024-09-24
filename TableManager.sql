@@ -1,0 +1,1 @@
+ALTER TABLE exoplanets ADD url AS ('https://exoplanetarchive.ipac.caltech.edu/cgi-bin/nstedAPI/nph-nstedAPI?') PERSISTED
