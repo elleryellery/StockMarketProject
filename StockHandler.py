@@ -8,7 +8,6 @@ from alpaca.trading.client import TradingClient
 from alpaca.trading.requests import GetOrdersRequest
 from alpaca.trading.enums import OrderSide, QueryOrderStatus
 
-load_dotenv()
 
 API_KEY_ID = os.getenv("KEY")
 API_SECRET_KEY = os.getenv("SECRET")
