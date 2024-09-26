@@ -6,6 +6,8 @@ from alpaca.trading.enums import OrderSide, TimeInForce
 from alpaca.trading.client import TradingClient
 from alpaca.trading.requests import GetOrdersRequest
 from alpaca.trading.enums import OrderSide, QueryOrderStatus
+from dotenv import load_dotenv # Load environment variables from .env file
+load_dotenv()
 
 
 API_KEY_ID = os.getenv("KEY")

@@ -26,7 +26,7 @@ jobs:
       # Install Python packages needed for your trading bot and other APIs
       run: |
         python -m pip install --upgrade pip
-        pip install alpaca-trade-api alpaca-py mysql.connector requests # Add your other API packages here
+        pip install alpaca-trade-api alpaca-py mysql.connector requests python-dotenv # Add your other API packages here
   
 
     - name: Run trading script
