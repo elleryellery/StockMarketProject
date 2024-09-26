@@ -34,6 +34,6 @@ jobs:
       run: python main.py
       env:
         APCA_API_BASE_URL: ${{ secrets.APCA_API_BASE_URL }}
-        APCA_API_KEY_ID: ${{ secrets.KEY }}
-        APCA_API_SECRET_KEY: ${{ secrets.SECRET }}
+        KEY: ${{ secrets.KEY }}
+        SECRET: ${{ secrets.SECRET }}
 
