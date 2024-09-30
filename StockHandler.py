@@ -61,7 +61,7 @@ def Sell():
     else:
         _qty = o.qty
     
-    print('Selling: ' + o.symbol + ', quantity' + str(_qty))
+    print('Selling: ' + o.symbol + ', quantity ' + str(_qty))
 
     market_order_data = MarketOrderRequest(
                         symbol=o.symbol,
